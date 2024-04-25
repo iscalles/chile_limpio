@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(199, 101, 160);
+}
+form{
+    width: 50vw;
+}
+.form-group{
+    padding: 10px;
+}
+.genero{
+    margin-top: 10px;
+}
+textarea{
+     min-height: 100px;
+     min-width: 100%;
+     max-height: 200px;
+     resize: vertical;
+}
+.boton_enviar{
+   margin: auto;
+   display: flex;
+
+}

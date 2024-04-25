@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fromulario</title>
+</head>
+<body>
+    <h1>Formulario de postulación para el trabajo de apoyo ambiental para Chiloé </h1>
+    <form>
+        <div class="form-group">
+            <label for="rut">Rut:</label>
+            <input type="text" class="rut_control" id="rut" name="rut">
+        </div>
+        <div class="form-group">
+            <label for="ape_paterno">Apellido paterno:</label>
+            <input type="text" class="apepaterno" id="ape_paterno" name="ape_paterno">
+        </div>
+        <div class="form-group">
+            <label for="ape_materno">Apellido materno:</label>
+            <input type="text" class="apematerno" id="ape_materno" name="ape_materno">
+        </div>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="nombre" id="nombre" name="nombre">
+        </div>
+        <div class="form-group">
+            <label for="fecha_nac">Fecha de nacimiento:</label>
+            <input type="date" class="fecha_nac" id="fecha_nac" name="fecha_nac">
+        </div>
+        <div class="form-group">
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad">
+        </div>
+        <div class="form-group">
+            <label for="genero">Genero:</label>
+            <div class="genero">
+                <input type="radio" id="masculino" name="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="femenino">
+                <label for="femenino">Femenino</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="celular">Celular</label>
+            <input type="tel" id="celular" name="celular">
+        </div>
+        <div class="form-group">
+            <label for="profesion">Profesion</label>
+            <input type="text" id="profesion" name="profesion">
+        </div>
+        <div class="form-group">
+            <label for="postulacion">¿Por que postulas al trabajo?</label>
+            <textarea placeholder="Indique sus cualidades aquí"></textarea>
+        </div>
+        <div class="boton_enviar">
+            <input type="submit" value="Enviar formulario">
+        </div>
+        
+    </form>
+</body>
+</html>
