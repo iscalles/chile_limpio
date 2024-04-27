@@ -1,8 +1,12 @@
 body{
-    background-color: rgb(199, 101, 160);
+    background-color: rgb(245, 226, 237);
 }
 form{
     width: 50vw;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 20px auto;
 }
 .form-group{
     padding: 10px;
@@ -21,3 +25,9 @@ textarea{
    display: flex;
 
 }
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+
