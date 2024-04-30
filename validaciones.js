@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         form.reset();
       }
     });
-  
+   // para cerrar los eventos al hacer click fuera de el
     function validateForm() {
       const rut = document.getElementById('rut').value;
       const apellidoPaterno = document.getElementById('apellidoPaterno').value;
