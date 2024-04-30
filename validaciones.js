@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         form.reset();
       } else {
         alert('Por favor completa todos los campos correctamente.');
+        form.reset();
       }
     });
   
