@@ -17,4 +17,4 @@ var Fn = {
 	}
 }
 // Uso de la función
-//alert( Fn.validaRut('11111111-1') ? 'Valido' : 'inválido');
+alert( Fn.validaRut('11111111-1') ? 'Valido' : 'inválido');
